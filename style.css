@@ -1,0 +1,120 @@
+body {
+  background-color: burlywood;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 992px) {
+  /* para una pantalla < 992px>, se leerá CSS desktops.. */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Para una pantalla < 768px>, se leera este CSS tablets */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Para una pantalla < 540px, se leerá CSS phones */
+  .container {
+    width: 300px;
+  }
+}
+
+h2 {
+  color: brown;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+p {
+  color: rgb(22, 80, 119);
+  font-size: 20;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+ul {
+  color: rgb(22, 80, 119);
+  font-size: 20;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+ol {
+  color: rgb(22, 80, 119);
+  font-size: 20;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card {
+  margin: 44px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 8px 9px 10px rgb(0 0 0 / 10%);
+}
+
+#banner {
+  margin: 44px;
+  padding: 20px;
+  text-align: center;
+  /* background-image: url(https://m.media-amazon.com/images/I/A1lGveZXVJL._AC_SL1500_.jpg); */
+  background-image: url(images/fondo.jpg);
+  background-size: contain;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li {
+  font-size: 40px;
+}
+.list-inline i {
+  letter-spacing: 10px;
+  color: rgb(214, 120, 38);
+}
+
+.list-inline {
+  text-align: center;
+  padding: 20;
+}
+
+.btn-red {
+  background-color: crimson;
+  padding: 10px 30 px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-decoration: 4px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.btn-red:hover {
+  background-color: tomato;
+}
+
+.list-inline i:hover {
+  background-color: rgb(240, 63, 9);
+}
+
+.card-white {
+  margin: 44px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 8px 9px 10px rgb(0 0 0 / 10%);
+}
